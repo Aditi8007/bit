@@ -33,5 +33,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: syft_sbom
-        path: sbom.spdx
+        #path: sbom.spdx
+        path: sbom.json
         if-no-files-found: error
